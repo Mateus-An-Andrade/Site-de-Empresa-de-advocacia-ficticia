@@ -5,33 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agência Judicial-RJ</title>
     <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
     <h1>Agência Defensora dos Direitos <br> Civis</h1>  
         <img class="balança" src="balança.png" alt="balança">
         <img class="martelo" src="martelo.png" alt="martelo">
         <img class="suportedemartelo" src="suporte (1).png" alt="suporte de martelo">
 
-    <p>Nossas atuações e profissionais:</p>
+    <p>Nossas atuações nas esferas judiciais e profissionais da agência:</p>
     <div>
-        <button class="dc">Direito Civil</button>
-        <a href=""></a>
+        <label class="escolha" for="esf.jud">Escolha qual a área deseja atendimento:</label>
 
-        <button class="dcr">Direito Criminal</button>
+        <select name="Área de atendimento" id="esf.jud.civil">
 
-        <button class="dp">Direito Previdenciario</button>
+            <option value="" selected> --Direito Civil-- </option>
+                <option value="Dr. Isaac">Dr. Isaac</option>
+                <option value="Dr. Isaac">Dra. Ana</option>
+                <option value="Dr. Isaac">Dr. Fernando</option>
+            </optgroup>
+        </select>
 
-        <button class="de">Direito Empresarial</button>
+        <select name="Área de atendimento" id="esf.jud.criminal">
 
-        <button class="dd">Direito Digital</button>
+            <option value="" selected> --Direito Criminal-- </option>
+                <option value="Dr. Isaac">Dr. Caique</option>
+                <option value="Dr. Isaac">Dra. Geovana</option>
+                <option value="Dr. Isaac">Dr. Roberto</option>
+            </optgroup>
+        </select>
+
+        <select name="Área de atendimento" id="esf.jud.previdênciario">
+
+            <option value="" selected> --Direito Previdênciario-- </option>
+                <option value="Dr. Isaac">Dr. Robson</option>
+                <option value="Dr. Isaac">Dra. Emanuely</option>
+                <option value="Dr. Isaac">Dra. Joyce</option>
+            </optgroup>
+        </select>
+
+        <select name="Área de atendimento" id="esf.jud.empresarial">
+
+            <option value="" selected> --Direito Empresarial-- </option>
+                <option value="Dr. Isaac">Dr. Tomas</option>
+                <option value="Dr. Isaac">Dra. Bianca</option>
+                <option value="Dr. Isaac">Dra. Sara</option>
+            </optgroup>
+        </select>
+
+        <select name="Área de atendimento" id="esf.jud.digital">
+
+            <option value="" selected> --Direito Digital-- </option>
+                <option value="Dr. Isaac">Dr. Rafael Menezes</option>
+                <option value="Dr. Isaac">Dra. Carla</option>
+                <option value="Dr. Isaac">Dr. Pedro</option>
+            </optgroup>
+        </select>
     </div>
-    <br>
-    
+
+</head>
+<body>
+
     <h2>Por que você deve nos contratar?</h2>
-        <div1 class="conteudo">
-            <p class="quemsomos">Somos referência no mercado.  No caso em que atuamos,não permitimos que injustiças sejam cometidas,<img class="advogados" src="pexels-august-de-richelieu-4427430.jpg" alt="advogados"> Equidade e Igualdade para todos, é o que queremos e acreditamos. Equidade a todos perante a justiça, para que todos tenham aquilo que é justo e aquilo que necessitam. Igualdade de todos perante a Lei.   
+            <p class="quemsomos">Somos referência no mercado.  No caso em que atuamos,não permitimos que injustiças sejam cometidas, Equidade e Igualdade para todos, é o que queremos e acreditamos. Equidade a todos perante a justiça, para que todos tenham aquilo que é justo e aquilo que necessitam. Igualdade de todos perante a Lei.
+                <br>
+                <img class="advogados" src="pexels-august-de-richelieu-4427430.jpg" alt="advogados">   
             </p>
-        </div1>
      <p class="marketing"> aqui fica um anuncio aleatorio</p>
      <br>
      <h2>
@@ -40,17 +76,18 @@
      <p class="questionamento">
             Está em duvidas sobre os nossos profissionais? Não fique, se tem algo que gostamos na nossa profissão, é sermos desafiados e mostrarmos que somos capazes de ajudar a resolver as causas de nossos clientes. Mas para que você sinta confiança em nossa agência, venha ter uma conversa com um dos nossos profissionais. <img class="conversa" src="pexels-karolina-conversa (1).jpg" alt="atendimento do advogado com um cliente">Dessa maneira poderá constatar que ao nos escolher para te representar perante a justiça, verá que tomou a decisão mais acertada!
             <br>
-        </p>    
+    </p>    
         <br>
-        <p >
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+        <p class="satisfação_01"> <i> <b > Cliente J: </b> </i> <br> <br> <i>Eu não acreditava mais que poderia ganhar a causa, cheguei a contratar 03 advogados, mas nenhum deles me passou segurança. Diferente dos advogados da A.D.D.C, todos são profissionais de primeira linha. Com certeza os melhores! Causa GANHA!!! <br> <br> Obrigado A.D.D.C !!! </i>
+        </p>
+        <br>
+       
+        <p class="satisfação_02"> <i> <b > Cliente L: </b> </i> <br> <br> <i> Certamente a minha causa demoraria muito mais se continuasse com a antiga firma. A A.D.D.C é incrivel, desde os atendentes, até os advogados. Certamente voltaria a contratar os seus serviços novamente!.  <br> <br> Muito, Muito Obrigado A.D.D.C !!! </i>
+        </p>
+        <br>
+        <p class="satisfação_03"> <i> <b > Cliente B: </b> </i> <br> <br> <i> Agora eu entendo o por que muitos dos casos no nosso país não são resolvidos, Pela falta de profissionais capacitados na sua grande maioria. O que não é o caso da A.D.D.C, que desde o início do contrato analisou o meu caso, me passou tudo o que poderia suceder no tribunal e o que poderia ser feito para contorna a situação dentro da lei. E conforme ele analisaram, sucedeu. Certamente sem eles eu perderia a minha causa. Vou sempre recomendar essa agência  <br> <br> Muito, Muito Obrigado A.D.D.C pelos seus serviços !!! </i>
+        </p>
+        <p class="direitosautorais">
            &copy;todos os direitos reservados para: Mateus da Anunciação Andrade
         </p>
 </body>
